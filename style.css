@@ -1,0 +1,21 @@
+.background_color{
+  background-color: DarkGray;
+  font: 20px Verdana;
+}
+
+table, td{
+  padding: 25px;
+  border: 5px black solid;
+  border-collapse: separate;
+  border-spacing: 2px;
+  }
+
+.my-Name {
+  font-size: 100px;
+  text-align: left;
+}
+
+.box {
+  margin:1 auto;
+  width: 100%;
+}

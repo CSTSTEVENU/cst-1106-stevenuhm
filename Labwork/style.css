@@ -1,0 +1,20 @@
+.IndianRed_color_25_size_font{
+  background-color: LightGray;
+  font: 25px Arial;
+  color: IndianRed
+}
+.LightGreen_color_10_size_font{
+  background-color: DarkGray;
+  font: 15px Helvetica;
+  color: Pink
+}
+#DarkOrange_color_15_size_font{
+  background-color: Azure;
+  font: 20px Verdana;
+  color: DarkOrange
+}
+.Green {
+  background-color:green;
+}
+table, td {border: 1px solid black;
+}

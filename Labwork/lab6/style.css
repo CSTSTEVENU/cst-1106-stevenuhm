@@ -1,0 +1,30 @@
+  div{
+    padding: 40px;
+  }
+  #Head_text {
+    background-color: #92a8d1;
+    text-align: center;
+  }
+
+  #Footer_text {
+    background-color: #e14937;
+    text-align: center;
+    clear: both;
+  }
+
+  #Navi_text {
+    background-color: #4db74c;
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    height: 600px;
+
+  }
+
+  #Main_text {
+    background-color: #1ebbc6;
+    float: right;
+    width: 68%;
+    box-sizing: border-box;
+    height: 600px;
+  }

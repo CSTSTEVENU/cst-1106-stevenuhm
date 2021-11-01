@@ -1,0 +1,35 @@
+a:link {
+  color: Violet;
+}
+
+a:visted {
+  color: MediumSeaGreen;
+}
+
+a:hover {
+  color: Tomato;
+}
+
+a:active {
+  background-color: DodgerBlue;
+  color: white;
+}
+
+#header_style {
+  background-color:#d6cbd3;
+  text-align: center;
+  height: 3vh;
+}
+
+#footer_style {
+  background-color: #ada397;
+  text-align: center;
+  height: 3vh;
+  clear: both;
+}
+
+h1{
+  background-color: tomato;
+  color: white;
+  border: 3px solid black;
+}

@@ -1,6 +1,6 @@
 function addition() {
-  x = parseInt(jQuery('value1').val());
-  y = parseInt(jQuery('value2').val());
+  x = parseInt(jQuery('#value1').val());
+  y = parseInt(jQuery('#value2').val());
   z = x + y
   jQuery('#Result').html(z);
   tmp = '<span id="">' + x + ' + ' + y ' = ' + z + ' <button id="delete"> Delete </button> <br> </span>';
@@ -9,8 +9,8 @@ function addition() {
 }
 
 function subtraction() {
-  x = parseInt(jQuery('value1').val());
-  y = parseInt(jQuery('value2').val());
+  x = parseInt(jQuery('#value1').val());
+  y = parseInt(jQuery('#value2').val());
   z = x - y
   jQuery('#Result').html(z);
   tmp = ('<span id="">' + x + ' - ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
@@ -19,8 +19,8 @@ function subtraction() {
 }
 
 function multiplcation() {
-  x = parseInt(jQuery('value1').val());
-  y = parseInt(jQuery('value2').val());
+  x = parseInt(jQuery('#value1').val());
+  y = parseInt(jQuery('#value2').val());
   z = x * y
   jQuery('#Result').html(z);
   tmp = ('<span id="">' + x + ' * ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
@@ -29,8 +29,8 @@ function multiplcation() {
 }
 
 function division() {
-  x = parseInt(jQuery('value1').val());
-  y = parseInt(jQuery('value2').val());
+  x = parseInt(jQuery('#value1').val());
+  y = parseInt(jQuery('#value2').val());
   z = x / y
   jQuery('#Result').html(z);
   tmp = ('<span id="">' + x + ' / ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';

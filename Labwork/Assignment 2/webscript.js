@@ -75,8 +75,8 @@ function setup() {
   jQuery('#trigger_muliplication').click(multiplcation);
   jQuery('#trigger_division').click(division);
   jQuery('#trigger_power').click(power);
-  jQuery('#show').click(show_);
-  jQuery('#hide').click(hide_);
+  jQuery('#show_').click(show_);
+  jQuery('#hide_').click(hide_);
   jQuery('body').on('click', '#delete', deleteElement);
 
 }

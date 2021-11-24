@@ -39,8 +39,8 @@ function division() {
 }
 
 function power() {
-  x = parseInt(jQuery('value1').val());
-  y = parseInt(jQuery('value2').val());
+  x = parseInt(jQuery('#value1').val());
+  y = parseInt(jQuery('#value2').val());w
 
   z = 1;
 

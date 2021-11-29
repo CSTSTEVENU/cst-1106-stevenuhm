@@ -1,0 +1,10 @@
+.smallimg > img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.largeimg > img {
+  width: 800px;
+  height: 600px;
+}

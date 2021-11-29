@@ -1,5 +1,7 @@
 function view_largeimg(){
+
   imgSrc = jQuery(this).attr('src')
+
   jQuery('.largeimg > img').attr('src', imgSrc)
 }
 

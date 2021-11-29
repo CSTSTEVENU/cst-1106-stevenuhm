@@ -81,4 +81,4 @@ function setup() {
 
 }
 
-jQuery(document).ready(setup);
+jQuery(document).ready(setup)

@@ -4,7 +4,7 @@ function view_largeimg(){
 }
 
 function setup(){
-  $('body').on('click', '.thumb > img', view_largeimg)
+  $('body').on('click', '.smallimg > img', view_largeimg)
 }
 
 $(document).ready(setup)

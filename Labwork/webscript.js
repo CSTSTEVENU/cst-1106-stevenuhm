@@ -3,7 +3,7 @@ function addition() {
   y = parseInt(jQuery('#value2').val());
   z = x + y
   jQuery('#Result').html(z);
-  tmp = '<span id="">' + x + ' + ' + y ' = ' + z + ' <button id="delete"> Delete </button> <br> </span>';
+  tmp = '<span>' + x + ' + ' + y + ' = ' + z + ' <button id="delete"> Delete </button> <br> </span>';
   jQuery('#History').append(tmp);
 
 }
@@ -13,7 +13,7 @@ function subtraction() {
   y = parseInt(jQuery('#value2').val());
   z = x - y
   jQuery('#Result').html(z);
-  tmp = ('<span id="">' + x + ' - ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
+  tmp = ('<span>' + x + ' - ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
   jQuery('#History').append(tmp);
 
 }
@@ -23,7 +23,7 @@ function multiplcation() {
   y = parseInt(jQuery('#value2').val());
   z = x * y
   jQuery('#Result').html(z);
-  tmp = ('<span id="">' + x + ' * ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
+  tmp = ('<span>' + x + ' * ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
   jQuery('#History').append(tmp);
 
 }
@@ -33,14 +33,14 @@ function division() {
   y = parseInt(jQuery('#value2').val());
   z = x / y
   jQuery('#Result').html(z);
-  tmp = ('<span id="">' + x + ' / ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
+  tmp = ('<span>' + x + ' / ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
   jQuery('#History').append(tmp);
 
 }
 
 function power() {
   x = parseInt(jQuery('#value1').val());
-  y = parseInt(jQuery('#value2').val());w
+  y = parseInt(jQuery('#value2').val());
 
   z = 1;
 
@@ -49,7 +49,7 @@ function power() {
   }
 
   jQuery('#Result').html(z);
-  tmp = ('<span id="">' + x + ' ^ ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
+  tmp = ('<span>' + x + ' ^ ' + y + ' = ' + z + )' <button id="delete"> Delete </button> <br> </span>';
   jQuery('#History').append(tmp);
 
 }

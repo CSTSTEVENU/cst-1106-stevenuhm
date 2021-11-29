@@ -1,10 +1,10 @@
 function view_largeimg(){
-  imgSrc = $(this).attr('src')
-  $('.largeimg > img').attr('src', imgSrc)
+  imgSrc = jQuery(this).attr('src')
+  jQuery('.largeimg > img').attr('src', imgSrc)
 }
 
 function setup(){
-  $('body').on('click', '.smallimg > img', view_largeimg)
+  jQuery('body').on('click', '.smallimg > img', view_largeimg)
 }
 
-$(document).ready(setup)
+jQuery(document).ready(setup)

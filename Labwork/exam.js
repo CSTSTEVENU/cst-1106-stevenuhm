@@ -106,7 +106,7 @@ function setup(){
   jQuery('#First').click(first_inp);
 
   jQuery('#Last').click(last_inp);
-  call_ajax();
+  ajax_inp();
 
   jQuery("body").on('click','.pages', button_inp);
 

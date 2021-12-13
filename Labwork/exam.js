@@ -91,7 +91,7 @@ function ajax_inp(){
 function fill_in_buttons(){
 
   for( i = 1; i <=  received_object.items.length /10 ; i++){
-    jQuery("#between_").append('<button class="pages" id="' + i + '">' + i + "</button")
+    jQuery("#between").append('<button class="pages" id="' + i + '">' + i + "</button")
   }
 }
 
